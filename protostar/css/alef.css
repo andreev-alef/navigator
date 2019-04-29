@@ -9,5 +9,10 @@ and open the template in the editor.
 */
 
 .site-description{
-    font-size: 30pt;
+    font-size: 16pt;
+}
+
+.sidebar-nav{
+    /*background-color: #6DF2AB;*/
+    background-color: #FFD973;
 }
