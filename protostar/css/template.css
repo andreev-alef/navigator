@@ -5439,6 +5439,9 @@ a.badge:focus {
     .row-fluid .span9 {
         width: 74.468085099%;
         *width: 74.414893609638%;
+        margin-left: 370px;
+        position: relative;
+        top: -380px;
     }
     .row-fluid .span8 {
         width: 65.957446802%;
