@@ -7180,6 +7180,11 @@ body.site.fluid {
 }
 .header {
     margin-bottom: 10px;
+    background-image: url(../images/children_1150.jpg);
+    background-position: 284px 32%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 460px;
 }
 .header .finder {
     margin-top: 14px;
@@ -7211,7 +7216,7 @@ body.site.fluid {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    padding: 20px;
+    /*padding: 20px;*/
     border: 1px solid rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);

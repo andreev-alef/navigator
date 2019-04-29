@@ -9,10 +9,25 @@ and open the template in the editor.
 */
 
 .site-description{
-    font-size: 16pt;
+    font-size: 40px;
+    line-height: 1.15;
+    border-radius: 5px;
+    position: absolute;
+    left: 380px;
+    top: 40px;
+    background-color: rgba(21,28,111,0.4);
+    /*color: rgba(1,95,145,1);*/
+    /*color: rgba(255,255,255,1);*/
+    color: #fff;
+    padding: 130px;
+    
 }
 
 .sidebar-nav{
     /*background-color: #6DF2AB;*/
     background-color: #FFD973;
+}
+
+.logo{
+    margin-top: 120px;
 }
