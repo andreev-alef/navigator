@@ -5437,11 +5437,12 @@ a.badge:focus {
         *width: 82.925531906638%;
     }
     .row-fluid .span9 {
-        width: 74.468085099%;
-        *width: 74.414893609638%;
+        width: 72%;
+        /*width: 74.468085099%;*/
+        /**width: 74.414893609638%;*/
         margin-left: 370px;
-        position: relative;
-        top: -380px;
+        /*position: relative;*/
+        /*top: -380px;*/
     }
     .row-fluid .span8 {
         width: 65.957446802%;
@@ -7163,7 +7164,8 @@ body.site {
     /*border-top: 3px solid #0088cc;*/
     padding: 0px;
     /*padding: 20px;*/
-    background-color: #f4f6f7;
+    /*background-color: #f4f6f7;*/
+    background-color: #fff;
 }
 body.site.fluid {
     background-color: #ffffff;
