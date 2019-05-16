@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.12.2018, 17:29:02
+    Author     : andreev_af
+*/
+
+@font-face{
+    font-family: 'Oswald-Bold';
+    src:    url('../fonts/Oswald-Bold.woff');
+}
+@font-face{
+    font-family: 'Oswald-BoldItalic';
+    src:    url('../fonts/Oswald-BoldItalic.woff');
+}
+
+@font-face{
+    font-family: 'Oswald-DemiBold';
+    src:    url('../fonts/Oswald-DemiBold.woff');
+}
+@font-face{
+    font-family: 'Oswald-Demi-BoldItalic';
+    src:    url('../fonts/Oswald-Demi-BoldItalic.woff');
+}
+@font-face{
+    font-family: 'Oswald-Extra-LightItalic';
+    src:    url('../fonts/Oswald-Extra-LightItalic.woff');
+}
+@font-face{
+    font-family: 'Oswald-ExtraLight';
+    src:    url('../fonts/Oswald-ExtraLight.woff');
+}
+@font-face{
+    font-family: 'Oswald-Heavy';
+    src:    url('../fonts/Oswald-Heavy.woff');
+}
+@font-face{
+    font-family: 'Oswald-HeavyItalic';
+    src:    url('../fonts/Oswald-HeavyItalic.woff');
+}
+@font-face{
+    font-family: 'Oswald-Light';
+    src:    url('../fonts/Oswald-Light.woff');
+}
+@font-face{
+    font-family: 'Oswald-LightItalic';
+    src:    url('../fonts/Oswald-LightItalic.woff');
+}
+@font-face{
+    font-family: 'Oswald-Medium';
+    src:    url('../fonts/Oswald-Medium.woff');
+}
+@font-face{
+    font-family: 'Oswald-MediumItalic';
+    src:    url('../fonts/Oswald-MediumItalic.woff');
+}
+
+@font-face{
+    font-family: 'Oswald-Regular';
+    src:    url('../fonts/Oswald-Regular.woff');
+}
+@font-face{
+    font-family: 'Oswald-RegularItalic';
+    src:    url('../fonts/Oswald-RegularItalic.woff');
+}
+
+@font-face{
+    font-family: 'PT Sans';
+    src:    url('../fonts/pt_sans.woff');
+} 
+@font-face{
+    font-family: 'PT Sans Bold';
+    src:    url('../fonts/pt_sans_bold.woff');
+} 
+@font-face{
+    font-family: 'PT Sans BoldItalic';
+    src:    url('../fonts/pt_sans_bold_italic.woff');
+} 
+@font-face{
+    font-family: 'PT Sans Italic';
+    src:    url('../fonts/pt_sans_italic.woff');
+} 
+@font-face{
+    font-family: 'PT Sans Narrow';
+    src:    url('../fonts/pt_sans_narrow.woff');
+} 
+@font-face{
+    font-family: 'PT Sans NarrowBold';
+    src:    url('../fonts/pt_sans_narrow_bold.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Bold';
+    src:    url('../fonts/OpenSans-Bold.woff');
+} 
+@font-face{
+    font-family: 'OpenSans BoldItalic';
+    src:    url('../fonts/OpenSans-BoldItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans ExtraBold';
+    src:    url('../fonts/OpenSans-ExtraBold.woff');
+} 
+@font-face{
+    font-family: 'OpenSans ExtraBoldItalic';
+    src:    url('../fonts/OpenSans-ExtraBoldItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Italic';
+    src:    url('../fonts/OpenSans-Italic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Light';
+    src:    url('../fonts/OpenSans-Light.woff');
+} 
+@font-face{
+    font-family: 'OpenSans LightItalic';
+    src:    url('../fonts/OpenSans-LightItalic.woff');
+} 
+@font-face{
+    font-family: 'OpenSans Regular';
+    src:    url('../fonts/OpenSans-Regular.woff');
+} 
+@font-face{
+    font-family: 'OpenSans SemiBold';
+    src:    url('../fonts/OpenSans-SemiBold.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Bold';
+    src:    url('../fonts/YanoneKaffeesatz-Bold.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz ExtraLight';
+    src:    url('../fonts/YanoneKaffeesatz-ExtraLight.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Light';
+    src:    url('../fonts/YanoneKaffeesatz-Light.woff');
+} 
+@font-face{
+    font-family: 'YanoneKaffeesatz Regular';
+    src:    url('../fonts/YanoneKaffeesatz-Regular.woff');
+} 
+@font-face{
+    font-family: 'NotoSerif Bold';
+    src:    url('../fonts/NotoSerif-Bold.woff');
+}
+@font-face{
+    font-family: 'NotoSerif BoldItalic';
+    src:    url('../fonts/NotoSerif-BoldItalic.woff');
+} 
+@font-face{
+    font-family: 'NotoSerif Italic';
+    src:    url('../fonts/NotoSerif-Italic.woff');
+} 
+@font-face{
+    font-family: 'NotoSerif Regular';
+    src:    url('../fonts/NotoSerif-Regular.woff');
+} 
+
+@font-face{
+    font-family: 'Exo2-Black';
+    src:    url('../fonts/Exo2-Black.woff');
+}
+@font-face{
+    font-family: 'Exo2-BlackItalic';
+    src:    url('../fonts/Exo2-BlackItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Bold';
+    src:    url('../fonts/Exo2-Bold.woff');
+}
+@font-face{
+    font-family: 'Exo2-BoldItalic';
+    src:    url('../fonts/Exo2-BoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraBold';
+    src:    url('../fonts/Exo2-ExtraBold.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraBoldItalic';
+    src:    url('../fonts/Exo2-ExtraBoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraLight';
+    src:    url('../fonts/Exo2-ExtraLight.woff');
+}
+@font-face{
+    font-family: 'Exo2-ExtraLightItalic';
+    src:    url('../fonts/Exo2-ExtraLightItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Light';
+    src:    url('../fonts/Exo2-Light.woff');
+}
+@font-face{
+    font-family: 'Exo2-LightItalic';
+    src:    url('../fonts/Exo2-LightItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Medium';
+    src:    url('../fonts/Exo2-Medium.woff');
+}
+@font-face{
+    font-family: 'Exo2-MediumItalic';
+    src:    url('../fonts/Exo2-MediumItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Regular';
+    src:    url('../fonts/Exo2-Regular.woff');
+}
+@font-face{
+    font-family: 'Exo2-SemiBold';
+    src:    url('../fonts/Exo2-SemiBold.woff');
+}
+@font-face{
+    font-family: 'Exo2-SemiBoldItalic';
+    src:    url('../fonts/Exo2-SemiBoldItalic.woff');
+}
+@font-face{
+    font-family: 'Exo2-Thin';
+    src:    url('../fonts/Exo2-Thin.woff');
+}
+@font-face{
+    font-family: 'Exo2-ThinItalic';
+    src:    url('../fonts/Exo2-ThinItalic.woff');
+}
